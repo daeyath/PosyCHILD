@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/11/05 17.44.11.535.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\Unit1.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit1.pas</Transaction>
+    <Transaction>2026/11/05 17.44.11.535.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\Unit1.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit1.dfm</Transaction>
+    <Transaction>2026/11/05 17.44.12.805.bdsproj,C:\Users\Lenovo\Documents\Borland Studio Projects\Project2.bdsproj=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Project2.bdsproj</Transaction>
+    <Transaction>2026/11/06 08.14.25.896.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit2.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uDataModule.pas</Transaction>
+    <Transaction>2026/11/06 08.14.25.896.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit2.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uDataModule.dfm</Transaction>
+    <Transaction>2026/11/06 10.14.21.136.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit3.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uLicense.pas</Transaction>
+    <Transaction>2026/11/06 10.14.21.136.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit3.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uLicense.dfm</Transaction>
+    <Transaction>2026/11/06 13.48.31.062.bdsproj,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Project2.bdsproj=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\PosyCHILDs.bdsproj</Transaction>
+    <Transaction>2026/11/06 13.48.43.556.bdsproj,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\PosyCHILDs.bdsproj=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\PosyCHILD.bdsproj</Transaction>
+    <Transaction>2026/11/06 16.23.52.173.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit1.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uFormInput.pas</Transaction>
+    <Transaction>2026/11/06 16.23.52.173.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit1.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uFormInput.dfm</Transaction>
+    <Transaction>2026/11/06 16.24.51.297.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit2.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uAyah.pas</Transaction>
+    <Transaction>2026/11/06 16.42.26.621.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uAyah.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
