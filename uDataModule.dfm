@@ -34,6 +34,7 @@ object DataModule2: TDataModule2
     IndexDefs = <>
     Params = <>
     StoreDefs = True
+    AfterScroll = TblBalita1AfterScroll
     Left = 40
     Top = 40
   end
@@ -64,7 +65,14 @@ object DataModule2: TDataModule2
     IndexDefs = <>
     Params = <>
     StoreDefs = True
+    BeforePost = PengukuranBeforePost
     Left = 120
     Top = 40
+  end
+  object BrowseBalita: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 40
+    Top = 96
   end
 end

@@ -14,5 +14,9 @@
     <Transaction>2026/11/06 16.23.52.173.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit1.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uFormInput.dfm</Transaction>
     <Transaction>2026/11/06 16.24.51.297.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\Unit2.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uAyah.pas</Transaction>
     <Transaction>2026/11/06 16.42.26.621.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\zScore\uAyah.pas=</Transaction>
+    <Transaction>2026/11/07 08.44.52.416.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\Unit2.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uListNIK.pas</Transaction>
+    <Transaction>2026/11/07 08.44.52.417.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\Unit2.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uListNIK.dfm</Transaction>
+    <Transaction>2026/11/07 08.45.08.625.pas,C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uListNIK.pas=C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uBrowseNIK.pas</Transaction>
+    <Transaction>2026/11/07 08.45.08.625.dfm,C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uListNIK.dfm=C:\Users\Lenovo\Documents\Borland Studio Projects\PosyCHILD\uBrowseNIK.dfm</Transaction>
   </Transactions>
 </BorlandProject>

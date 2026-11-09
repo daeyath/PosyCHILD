@@ -135,6 +135,36 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
   end
+  object SpeedButton1: TSpeedButton
+    Left = 191
+    Top = 79
+    Width = 23
+    Height = 22
+    Caption = '...'
+    OnClick = ActionBrowseNIKExecute
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 504
+    Top = 8
+    Width = 23
+    Height = 22
+    Anchors = [akTop, akRight]
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      04000000000000010000120B0000120B00001000000000000000000000000000
+      800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555
+      555555FFFFFFFFFF55555000000000055555577777777775FFFF00B8B8B8B8B0
+      0000775F5555555777770B0B8B8B8B8B0FF07F75F555555575F70FB0B8B8B8B8
+      B0F07F575FFFFFFFF7F70BFB0000000000F07F557777777777570FBFBF0FFFFF
+      FFF07F55557F5FFFFFF70BFBFB0F000000F07F55557F777777570FBFBF0FFFFF
+      FFF075F5557F5FFFFFF750FBFB0F000000F0575FFF7F777777575700000FFFFF
+      FFF05577777F5FF55FF75555550F00FF00005555557F775577775555550FFFFF
+      0F055555557F55557F755555550FFFFF00555555557FFFFF7755555555000000
+      0555555555777777755555555555555555555555555555555555}
+    NumGlyphs = 2
+    OnClick = ActionOpenFileExecute
+  end
   object DBGrid1: TDBGrid
     Left = 8
     Top = 242
@@ -149,15 +179,6 @@ object Form1: TForm1
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
   end
-  object DBEditNIK: TDBEdit
-    Left = 88
-    Top = 80
-    Width = 121
-    Height = 21
-    DataField = 'NIK'
-    DataSource = DataSourceBalita
-    TabOrder = 1
-  end
   object DBEdit2: TDBEdit
     Left = 88
     Top = 134
@@ -165,7 +186,7 @@ object Form1: TForm1
     Height = 21
     DataField = 'Nama'
     DataSource = DataSourceBalita
-    TabOrder = 3
+    TabOrder = 2
   end
   object DBEdit3: TDBEdit
     Left = 88
@@ -174,7 +195,7 @@ object Form1: TForm1
     Height = 21
     DataField = 'TglLhr'
     DataSource = DataSourceBalita
-    TabOrder = 4
+    TabOrder = 3
   end
   object DBComboBox1: TDBComboBox
     Left = 88
@@ -187,7 +208,7 @@ object Form1: TForm1
     Items.Strings = (
       'L'
       'P')
-    TabOrder = 5
+    TabOrder = 4
   end
   object DBEdit4: TDBEdit
     Left = 88
@@ -196,7 +217,7 @@ object Form1: TForm1
     Height = 21
     DataField = 'NOKK'
     DataSource = DataSourceBalita
-    TabOrder = 2
+    TabOrder = 1
   end
   object DBNavBalita: TDBNavigator
     Left = 8
@@ -207,7 +228,7 @@ object Form1: TForm1
     DataSource = DataSourceBalita
     ParentShowHint = False
     ShowHint = True
-    TabOrder = 6
+    TabOrder = 5
     OnClick = DBNavBalitaClick
   end
   object DBNavPeng: TDBNavigator
@@ -217,9 +238,8 @@ object Form1: TForm1
     Height = 25
     DataSource = DataSrcPengukuran
     Anchors = [akLeft, akBottom]
-    TabOrder = 7
+    TabOrder = 6
     OnClick = DBNavPengClick
-    ExplicitTop = 302
   end
   object DBEditTglUkur: TDBEdit
     Left = 432
@@ -229,7 +249,7 @@ object Form1: TForm1
     Anchors = [akTop, akRight]
     DataField = 'TglUkur'
     DataSource = DataSrcPengukuran
-    TabOrder = 8
+    TabOrder = 7
   end
   object DBEdit6: TDBEdit
     Left = 432
@@ -239,7 +259,7 @@ object Form1: TForm1
     Anchors = [akTop, akRight]
     DataField = 'UmurBulan'
     DataSource = DataSrcPengukuran
-    TabOrder = 9
+    TabOrder = 8
   end
   object DBEdit7: TDBEdit
     Left = 432
@@ -249,7 +269,7 @@ object Form1: TForm1
     Anchors = [akTop, akRight]
     DataField = 'Berat'
     DataSource = DataSrcPengukuran
-    TabOrder = 10
+    TabOrder = 9
   end
   object DBEdit8: TDBEdit
     Left = 432
@@ -259,6 +279,15 @@ object Form1: TForm1
     Anchors = [akTop, akRight]
     DataField = 'Tinggi'
     DataSource = DataSrcPengukuran
+    TabOrder = 10
+  end
+  object DBEdit1: TDBEdit
+    Left = 88
+    Top = 80
+    Width = 97
+    Height = 21
+    DataField = 'NIK'
+    DataSource = DataSourceBalita
     TabOrder = 11
   end
   object DataSourceBalita: TDataSource
@@ -270,5 +299,21 @@ object Form1: TForm1
     DataSet = DataModule2.Pengukuran
     Left = 288
     Top = 96
+  end
+  object ActionList1: TActionList
+    Left = 496
+    Top = 80
+    object ActionBrowseNIK: TAction
+      Caption = 'Lihat NIK'
+      OnExecute = ActionBrowseNIKExecute
+    end
+    object ActionOpenFile: TAction
+      Caption = 'Open'
+      OnExecute = ActionOpenFileExecute
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 536
+    Top = 80
   end
 end
